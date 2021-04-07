@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H15" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Birthday" representedClassName="Birthday" syncable="YES">
+        <attribute name="birthdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="birthdayId" optional="YES" attributeType="String"/>
+        <attribute name="daysLeft" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <relationship name="wishes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Wish" inverseName="birthday" inverseEntity="Wish"/>
+    </entity>
+    <entity name="Wish" representedClassName="Wish" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="birthday" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Birthday" inverseName="wishes" inverseEntity="Birthday"/>
+    </entity>
+    <elements>
+        <element name="Birthday" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="Wish" positionX="-45" positionY="27" width="128" height="73"/>
+    </elements>
+</model>

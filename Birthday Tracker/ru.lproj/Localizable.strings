@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Birthday Tracker
+
+  Created by Dmitriy Lee on 9/16/20.
+  Copyright © 2020 LEES Entertainment. All rights reserved.
+*/
+
+"New wish" = "Новое желание";
+"Create new wish" = "Создайте новое желание";
+"Create" = "Создать";
+"Cancel" = "Отмена";

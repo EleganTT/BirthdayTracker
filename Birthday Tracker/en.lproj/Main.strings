@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "0AC-WW-puG"; */
+"0AC-WW-puG.text" = "First Name";
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "OaN-Jf-0Bn"; */
+"OaN-Jf-0Bn.text" = "Last Name";
+
+/* Class = "UINavigationItem"; title = "Wish List"; ObjectID = "W29-yn-8Up"; */
+"W29-yn-8Up.title" = "Wish List";
+
+/* Class = "UINavigationItem"; title = "Birthdates"; ObjectID = "WBX-tu-QsI"; */
+"WBX-tu-QsI.title" = "Birthdates";
+
+/* Class = "UILabel"; text = "Подзаголовок"; ObjectID = "WMZ-ZN-v0a"; */
+"WMZ-ZN-v0a.text" = "Подзаголовок";
+
+/* Class = "UILabel"; text = "Заголовок"; ObjectID = "dKE-Co-RCW"; */
+"dKE-Co-RCW.text" = "Заголовок";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "eg3-wl-sEI"; */
+"eg3-wl-sEI.text" = "Date";
+
+/* Class = "UINavigationItem"; title = "Add birthdate"; ObjectID = "hdx-JV-vnQ"; */
+"hdx-JV-vnQ.title" = "Add birthdate";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "uJH-xF-V41"; */
+"uJH-xF-V41.text" = "Title";
